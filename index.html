@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    
+    <link rel="icon" type="image/png" href="assests/images/icon.png">
+    <title>UnderWander</title>
+    <link rel="stylesheet" href="assests/css/base.css">
+    <link rel="stylesheet" href="assests/css/style.css">
+  </head>
+  
+  <body>
+    <!-- Header -->
+    <header class="header">
+       <div class="container">
+        <div class="row">
+         <div class="col-12">
+          <div class="inner-main">
+            <div class="inner-logo">
+             <a href="/">
+              <img src="assests/images/logo.png" alt="Logo">
+             </a>   
+            </div>
+            <div class="inner-menu">
+                <ul>
+                    <li>
+                        <a href="a" class="active">
+                            Home
+                         </a>
+                     </a>
+                    </li>
+                    <li>
+                        <a href="a">
+                            About US
+                         </a>  
+                    </li>
+                    <li>
+                        <a href="a">
+                            Destination
+                         </a>  
+                    </li>
+                    <li>
+                        <a href="a">
+                            Blog
+                         </a>  
+                    </li>
+                    <li>
+                        <a href="a">
+                            Contact
+                         </a> 
+                    </li>
+                </ul>
+            </div>
+            <div class="inner-login">
+              <ul>
+                <div class="inner-icon-mobi">
+                  <i class="fa-solid fa-bars-staggered"></i>
+                </div>
+                <li>
+                  <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                </li>
+                <li>
+                  <a href="#" id="loginIcon" title="Đăng nhập/Đăng ký" onclick="toggleAuthPopup(event)">
+                    <i class="fa-regular fa-user"></i>
+                  </a>
+                  
+                  <!-- Pop-up đăng nhập/đăng ký, mặc định sẽ ẩn -->
+                  <div id="authPopup" class="auth-popup" style="display: none;">
+                    <div class="auth-popup-content">
+                      <span class="close-btn" onclick="toggleAuthPopup()">×</span>
+                      <h2>Đăng nhập</h2>
+                      <form id="loginForm">
+                        <label for="username">Tên đăng nhập:</label>
+                        <input type="text" id="username" required>
+                        <label for="password">Mật khẩu:</label>
+                        <input type="password" id="password" required>
+                        <button type="submit">Đăng nhập</button>
+                      </form>
+                      <p>Chưa có tài khoản? <a id="dangky" href="#" onclick="showRegisterForm()">Đăng ký</a></p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+         </div>   
+
+        </div>
+       </div> 
+
+    </header>
+    <!-- End header -->
+    
+
+    <!-- Section one -->
+    <div class="section-one">
+      <div class="container">
+       <div class="row">
+        <div class="col-12">
+          <div class="inner-wrap">
+          <h1 class="inner-title">
+            DISCOVER
+          </h1>
+          <span class="inner-span">
+            VIET NAM
+          </span>
+          <p>
+            Plan Your Best Holiday With Us & Enjoy
+          </p>
+          <a href="#" class="button button-two">EXPLORE NOW</a>
+         </div>
+        </div>
+       </div>
+      </div>
+    </div>
+    <!-- End section one -->
+
+    <!-- Section 2 -->
+    <div class="section-two">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-4">
+            <div class="inner-box">
+              <div class="inner-icon">
+                <i class="fa-solid fa-person-walking-luggage"></i>
+              </div>
+              <h3 class="inner-title">
+                2000+ Our Worldwide Guides
+              </h3>
+              <p class="inner-desc">
+                Etiam donec eu eget adipiscing semper in accumsan. Non ornare est.
+              </p>
+            </div>
+          </div>
+          <div class="col-xl-4">
+            <div class="inner-box">
+              <div class="inner-icon">
+                <i class="fa-regular fa-face-laugh-beam"></i>
+              </div>
+              <h3 class="inner-title">
+                98% of Our Travelers are Happy
+              </h3>
+              <p class="inner-desc">
+                Etiam donec eu eget adipiscing semper in accumsan. Non ornare est.
+              </p>
+            </div>
+          </div>
+          <div class="col-xl-4">
+            <div class="inner-box">
+              <div class="inner-icon">
+                <i class="fa-regular fa-face-grin-stars"></i>
+              </div>
+              <h3 class="inner-title">
+                100% Trusted Tour Agency
+              </h3>
+              <p class="inner-desc">
+                Etiam donec eu eget adipiscing semper in accumsan. Non ornare est.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Section 2 -->
+
+    
+    <!-- Section 3 -->
+     <div class="section-three">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="box-head">
+              <h2 class="inner-title">
+                Popular Destinations
+              </h2>
+              <p class="inner-desc">
+                Indulge in exquisite accommodations and services
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xl-3">
+            <div class="inner-box">
+              <div class="inner-image">
+                <img src="assests/images/halong.jpg" alt="">
+              </div>
+              <div class="inner-content">
+                <h3 class="inner-title">
+                <a href="#">
+                  Ha Long
+                </a>
+                </h3>
+                <p class="inner-desc">
+                  Lorem ipsum dolor sit amet consecteturn.
+                </p>
+                <a href="#" class="button button-two">LET'S GO</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3">
+            <div class="inner-box">
+              <div class="inner-image">
+                <img src="assests/images/hue.jpg" alt="">
+              </div>
+              <div class="inner-content">
+                <h3 class="inner-title">
+                <a href="#">
+                  Hue
+                </a>
+                </h3>
+                <p class="inner-desc">
+                  Lorem ipsum dolor sit amet consecteturn.
+                </p>
+                <a href="#" class="button button-two">LET'S GO</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3">
+            <div class="inner-box">
+              <div class="inner-image">
+                <img src="assests/images/hanoi.jpg" alt="">
+              </div>
+              <div class="inner-content">
+                <h3 class="inner-title">
+                <a href="#">
+                  Ha Noi
+                </a>
+                </h3>
+                <p class="inner-desc">
+                  Lorem ipsum dolor sit amet consecteturn. 
+                </p>
+                <a href="#" class="button button-two">LET'S GO</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3">
+            <div class="inner-box">
+              <div class="inner-image">
+                <img src="assests/images/phuquoc.jpg" alt="">
+              </div>
+              <div class="inner-content">
+                <h3 class="inner-title">
+                <a href="#">
+                  Phu Quoc
+                </a>
+                </h3>
+                <p class="inner-desc">
+                  Lorem ipsum dolor sit amet consecteturn.
+                </p> 
+                <a href="#" class="button button-two">LET'S GO</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+     
+
+
+    <!-- End Section 3 -->
+
+
+
+
+
+
+<!-- JavaScript để bật/tắt pop-up -->
+<script>
+  // Hàm để bật/tắt hiển thị Pop-up đăng nhập
+  function toggleAuthPopup(event) {
+    event.preventDefault(); // Ngăn không cho liên kết thực hiện chuyển trang
+    const popup = document.getElementById("authPopup");
+    popup.style.display = popup.style.display === "none" || popup.style.display === "" ? "block" : "none";
+  }
+
+  // Chuyển đổi sang form đăng ký
+  function showRegisterForm() {
+    document.getElementById("loginForm").innerHTML = `
+      <h2>Đăng ký</h2>
+      <label for="registerUsername">Tên đăng nhập:</label>
+      <input type="text" id="registerUsername" required>
+      <label for="registerPassword">Mật khẩu:</label>
+      <input type="password" id="registerPassword" required>
+      <button type="submit">Đăng ký</button>
+      <p>Đã có tài khoản? <a href="#" onclick="showLoginForm()">Đăng nhập</a></p>
+    `;
+  }
+
+  // Chuyển đổi sang form đăng nhập
+  function showLoginForm() {
+    document.getElementById("loginForm").innerHTML = `
+      <h2>Đăng nhập</h2>
+      <label for="username">Tên đăng nhập:</label>
+      <input type="text" id="username" required>
+      <label for="password">Mật khẩu:</label>
+      <input type="password" id="password" required>
+      <button type="submit">Đăng nhập</button>
+      <p>Chưa có tài khoản? <a href="#" onclick="showRegisterForm()">Đăng ký</a></p>
+    `;
+  }
+</script>
+ 
+    
+
+
+
+
+
+    <script> src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+  </body>
+</html>
